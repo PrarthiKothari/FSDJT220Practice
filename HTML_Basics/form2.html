@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Comprehensive HTML Form</h2>
+
+    <form action="/submit-form" method="post">
+        <!-- Text Input -->
+        <label for="text">Text: </label>
+        <input type="text" name="text" id="text"><br><br>
+
+        <!-- Password Input -->
+        <label for="Password">Password: </label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <!-- Number Input -->
+        <label for="number">Number: </label>
+        <input type="number" name="number" id="number"><br><br>
+
+        <!-- Tel Input -->
+        <label for="tel">Telephone: </label>
+        <input type="tel" name="tel" id="tel"><br><br>
+
+        <!-- URL Input -->
+        <label for="url">Website: </label>
+        <input type="url" name="url" id="url"><br><br>
+
+        <!-- Date Input -->
+        <label for="date">Date: </label>
+        <input type="date" name="date" id="date"><br><br>
+
+        <!-- Time Input -->
+        <label for="time">Time: </label>
+        <input type="time" name="time" id="time"><br><br>
+
+        <!-- Week Input -->
+        <label for="week">Week: </label>
+        <input type="week" name="week" id="week"><br><br>
+
+        <!-- Month Input -->
+        <label for="month">Month: </label>
+        <input type="month" name="month" id="month"><br><br>
+
+        <!-- Color Picker -->
+        <label for="color">Favourite color: </label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <!-- Range Slider -->
+        <label for="range">Range (0-100): </label>
+        <input type="range" name="range" id="range" min="0" max="100"><br><br>
+
+        <!-- File Upload -->
+        <label for="file">Uplaod File: </label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" name="hiddenField" value="hiddenValue">
+
+        <!-- Checkbox -->
+        <label>Choose your hobbies: </label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="Travelling">
+        <label for="hobby2">Travelling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="Gaming">
+        <label for="hobby3">Gaming</label><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender: </label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Select Country: </label>
+        <select name="country" id="country">
+            <option value="">--Please choose--</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Your Message: </label><br>
+        <textarea name="message" id="message" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+
+        <!-- Button -->
+        <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
+
+    </form>
+</body>
+</html>
