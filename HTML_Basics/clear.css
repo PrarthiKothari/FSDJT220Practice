@@ -1,0 +1,29 @@
+#c1{
+    border: 1px solid black;
+    background-color: aqua;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    width: 500px;
+    float: left;
+}
+
+#c2{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    font-size: larger;
+    width: 500px;
+    float: right;
+}
+
+#c3{
+    border: 2px solid grey;
+    background-color: black;
+    color: chartreuse;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    clear: both;
+}

@@ -1,0 +1,28 @@
+body{
+    border: 5px dotted red;
+}
+
+.m{
+    border: 1px solid chartreuse;
+    color: white;
+    background-color: black;
+}
+#mar1{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    padding: 50px;
+}
+#mar2{
+    /* margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+
+    /* margin: 50px; */
+
+    /* margin: 50px 100px;
+    top-bottom, left-right */
+
+    width: 500px;
+    margin: auto;
+}
