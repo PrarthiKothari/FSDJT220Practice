@@ -50,4 +50,34 @@
     /* gap: 10px; */
     /* row-gap: 5px; */
     /* column-gap: 5px; */
+    grid-template-columns: 200px 200px 200px; /* Used for grid column in child*/
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: start; */
+}
+
+/* GRID COLUMN CHILD
+
+justify self
+align self
+grid column
+grid row
+grid area
+
+*/
+
+#box-1{
+    background-color: bisque;
+    /* justify-self: center; */
+    /* align-self: self-end; */
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    /* grid-column: 1/3; */
+    /* grid-column: 1/span 3; */
+    /* grid-column: 1/-2; */
+    /* grid-row: 1/3; */
+    
+    /* GRID-AREA: ROW/COLUMN/ROWEND/COLUMNEND; */
+    grid-area: 1/1/3/3;
 }
