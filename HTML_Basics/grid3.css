@@ -17,7 +17,7 @@
     /* grid-template-columns: 100px 200px 300px; */
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: 2fr 1fr 1fr 1fr; */
-    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
     /* grid-template-columns: repeat(4, 100px); */
     /* grid-template-columns: repeat(auto-fill, 100px); */
     /* grid-template-columns: auto auto; */
@@ -40,7 +40,7 @@
     /* gap: 10px; */
     /* row-gap: 20px; */
     /* column-gap: 5px; */
-    grid-template-columns: 200px 200px;
+    /* grid-template-columns: 200px 200px; */
     /* align-content: center; */
     /* align-content: start; */
 
@@ -50,7 +50,7 @@
     /* gap: 10px; */
     /* row-gap: 5px; */
     /* column-gap: 5px; */
-    grid-template-columns: 200px 200px 200px; /* Used for grid column in child*/
+    /* grid-template-columns: 200px 200px 200px; Used for grid column in child */
     /* align-items: center; */
     /* align-items: end; */
     /* align-items: start; */
@@ -65,8 +65,28 @@ grid row
 grid area
 
 */
+.box{
+border: 2px solid green;
+padding: 12px;
+}
 
 #box-1{
+    /* background-color: bisque; */
+    /* justify-self: center; */
+    /* align-self: self-end; */
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    /* grid-column: 1/3; */
+    /* grid-column: 1/span 3; */
+    /* grid-column: 1/-2; */
+    /* grid-row: 1/3; */
+    
+    /* GRID-AREA: ROW/COLUMN/ROWEND/COLUMNEND; */
+    /* grid-area: 1/1/3/3; */
+}
+
+#box-5{
     background-color: bisque;
     /* justify-self: center; */
     /* align-self: self-end; */
@@ -79,5 +99,5 @@ grid area
     /* grid-row: 1/3; */
     
     /* GRID-AREA: ROW/COLUMN/ROWEND/COLUMNEND; */
-    grid-area: 1/1/3/3;
+    grid-area: 2/2/4/4;
 }
