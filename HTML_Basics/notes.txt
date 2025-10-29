@@ -1,2 +1,0 @@
-margin = creates space around outside element border --> space between 2 borders
-padding = creates space between content and element border

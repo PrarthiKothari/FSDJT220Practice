@@ -31,6 +31,8 @@
     /* align-items: baseline; */
 
     flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* align-items: stretch; */
     /* align-content: flex-start; */
     /* align-content: flex-end; */
     align-content: space-between;
