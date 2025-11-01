@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student | Sign Up</title>
+</head>
+<body>
+    <form action="/submit-form" method="post" style="text-align: center;">
+        <h3>Sign Up</h3>
+        <table border="0" align="center">
+            <tr>
+                <td>
+                    <label for="username"><b>Username: </b></label>
+                </td>
+                <td>
+                    <input type="email" name="username" id="username" placeholder="Enter Email ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password"><b>Password: </b></label>
+                </td>
+                <td>
+                     <input type="password" name="password" id="password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password"><b>Confirm Password: </b></label>
+                </td>
+                <td>
+                     <input type="password" name="password" id="password" required>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Sign Up">
+    </form>
+</body>
+</html>
